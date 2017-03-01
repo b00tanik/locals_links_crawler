@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "locals_links_crawler"
   spec.version       = LocalsLinksCrawler::VERSION
   spec.authors       = ["Ivaschenko Alexandr"]
-  spec.email         = ["b00tanik@mail.ru"]
+  spec.email         = ["alex.ivasch@gmail.com"]
 
   spec.summary       = %q{Gem for get image links from page}
-  spec.description   = %q{run rspec}
+  spec.description   = %q{Usage:  `LocalsLinksCrawler::Crawler.new('https://thelocals.ru').image_links` }
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
